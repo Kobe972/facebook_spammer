@@ -24,4 +24,4 @@ jobs:
         TO: ${{ secrets.TO }}
         PASSWORD: ${{ secrets.PASSWORD }}
       run: |
-        python spam.py --from_email "$FROM" --to_email "$TO" --password "$PASSWORD"
+        python spam.py "$FROM" "$TO" "$PASSWORD"

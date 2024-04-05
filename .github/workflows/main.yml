@@ -2,6 +2,8 @@ name: Spammer action
 
 on: 
   workflow_dispatch:
+  schedule:
+    - cron: '00 16 * * *'
 
 jobs:
   build:

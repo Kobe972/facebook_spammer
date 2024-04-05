@@ -1,4 +1,4 @@
-name: Spider action
+name: Soammer action
 
 on: 
   workflow_dispatch:
